@@ -1,0 +1,84 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  background-image: linear-gradient(
+    90deg,
+    rgba(0, 0, 0, 0.877),
+    rgba(0, 0, 0, 0.623)
+  );
+}
+.container2 {
+  margin: 20px auto;
+  position: relative;
+  background-image: url("/ChelleNight-10.jpg");
+  background-position: center;
+  background-size: cover;
+  background-color: red;
+  width: 300px;
+  height: 450px;
+  box-shadow:
+    rgba(8, 3, 6, 0.4) 5px 5px,
+    rgba(17, 2, 12, 0.3) 10px 10px,
+    rgba(8, 2, 6, 0.2) 15px 15px,
+    rgba(2, 0, 1, 0.1) 20px 20px,
+    rgba(0, 0, 0, 0.05) 25px 25px;
+}
+h1 {
+  left: 100px;
+  top: 15px;
+  position: absolute;
+  color: white;
+  text-shadow: 0 0 10px cyan;
+}
+.frm2 {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  justify-content: center;
+  justify-content: start;
+  left: 11%;
+  bottom: 45px;
+  width: 230px;
+  height: 340px;
+  /* border: 2px solid red; */
+  position: absolute;
+
+  gap: 10px;
+}
+.frm2 label {
+  color: white;
+}
+.frm2 input {
+  height: 20px;
+  outline: none;
+  padding-left: 5px;
+}
+.frm2 input:focus {
+  border: 2px solid red;
+  border-radius: 3px;
+}
+#h6 {
+  text-align: center;
+  color: white;
+
+  text-shadow: 0 0 10px red;
+}
+.lins {
+  color: white;
+  cursor: pointer;
+}
+.lins:hover {
+  color: blue;
+}
+.btn2 {
+  height: 35px;
+  border: 2px solid black;
+
+  border-radius: 7px;
+  cursor: pointer;
+}
+.btn2:hover {
+  color: blue;
+}
